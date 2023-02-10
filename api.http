@@ -1,0 +1,16 @@
+GET http://localhost:3000/health
+
+###
+GET http://localhost:3000/v1/products
+
+###
+GET http://localhost:3000/v1/products/explain
+
+###
+GET http://localhost:3000/v2/products?limit=20&skip=0
+
+###
+GET http://localhost:3000/v2/products-faster
+
+###
+GET http://localhost:3000/v2/products-formated
